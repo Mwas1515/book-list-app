@@ -1,9 +1,9 @@
 function BookItem({ book, deleteBook }) {
   return (
-    <div className="flex justify-between items-center border rounded-lg p-4 shadow-sm bg-gray-50">
+    <div className="flex justify-between items-center border rounded-lg p-4 shadow-sm bg-white">
       <div>
-        <h2 className="text-xl font-semibold">{book.title}</h2>
-        <p className="text-gray-600">{book.author}</p>
+        <h2 className="text-2xl font-semibold">{book.title}</h2>
+        <p className="font-semibold">{book.author}</p>
       </div>
 
       <button

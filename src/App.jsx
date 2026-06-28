@@ -32,9 +32,9 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center py-10">
-      <div className="w-full max-w-2xl bg-white shadow-lg rounded-lg p-6">
-        <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">
+    <div className="min-h-screen bg-black flex justify-center py-10">
+      <div className="w-full max-w-2xl bg-blue-500 shadow-lg rounded-lg p-6">
+        <h1 className="text-4xl font-bold text-center text-white mb-6 uppercase">
           Book List
         </h1>
 
@@ -42,7 +42,7 @@ function App() {
           <input
             type="text"
             placeholder="Book Title"
-            className="border rounded-lg p-2 flex-1"
+            className="border bg-white rounded-lg p-2 flex-1"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
@@ -50,14 +50,14 @@ function App() {
           <input
             type="text"
             placeholder="Author"
-            className="border rounded-lg p-2 flex-1"
+            className="border bg-white rounded-lg p-2 flex-1"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
           />
 
           <button
             onClick={addBook}
-            className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
+            className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
           >
             Add
           </button>
