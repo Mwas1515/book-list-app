@@ -84,7 +84,7 @@ https://book-list-app-gamma.vercel.app/
 
 ## Screenshot
 
-Add a screenshot of the application here.
+[book-list-app](src/assets/images/booklist.png)
 
 ## Author
 
