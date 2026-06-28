@@ -65,12 +65,8 @@ npm run build
 
 ## Live Demo
 
-Add your deployed application link here after deployment.
-
-Example:
-
 ```
-https://your-app-name.vercel
+https://book-list-app-gamma.vercel.app/
 ```
 
 ## Screenshot
