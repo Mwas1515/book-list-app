@@ -21,14 +21,27 @@ A simple application for managing a collection of books. Users can browse a list
 
 ## Project Structure
 
-```text
-src/
-├── components/
-│   ├── BookList.jsx
-│   └── BookItem.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
+```book-list-app/
+├── public/
+│   └── vite.svg
+│
+├── src/
+│   ├── components/
+│   │   ├── BookList.jsx
+│   │   └── BookItem.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── .gitignore
+└── README.md
 ```
 
 ## Installation
